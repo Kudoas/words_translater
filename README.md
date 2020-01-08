@@ -3,7 +3,9 @@
 ## 使い方
 
 - `git clone git@github.com:Kudoas/words_translater.git`でローカルにファイルをダウンロードする。
+
 - ローカルのpython環境に`pip3 install googletrans`を入れるか`docker-compose up -d`で起動する環境を作る
+
 - テスト作成用のファイルはtxt形式で`英単語のみ`か`1.	abide`のような形で一行ずつ用意する
 
 ```txt
