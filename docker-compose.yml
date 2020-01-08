@@ -1,0 +1,10 @@
+version: "3"
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - $PWD:/tmp/working
+    working_dir: /tmp/working
